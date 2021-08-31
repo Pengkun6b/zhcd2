@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>联系我们</title>
@@ -171,181 +171,112 @@
             <div class="section-subtitle">您可以通过以下方式找到和联系我们</div>
           
         </div>
-        <section class="countact-us-section" style="margin-bottom:200px ;display: flex;flex-wrap: wrap;justify-content:start;margin: auto;width: 70%;">
-          
+
         <style>
-.countact-rowbox{
+.ctBox{
     width: 50%;
-    min-width: 400px;
-    margin-bottom: 180px;
-    cursor: pointer;
-    transition-duration: 0.5s;
+    margin: auto;
+    margin-bottom: 80px;
+    
 }
-.countact-rowbox:hover .countImg{
-    background-color: orangered;
-color: white;
-
-}
-.countImg{
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
-    text-align: center;
-font-size: 40px;
-color: rgb(255, 226, 215);
-background-color: rgb(255, 105, 51);
-border-radius: 80px;
-margin: auto;
-transition-duration: 0.5s;
-}
-.countactRow{
-    text-align: center;
-    height: 40px;
-    line-height: 40px;
-    margin-bottom: 20px;
-}
-.ctit
-{
-    margin-top: 20px;
-    font-size: 25px;
-}
-.countText{ 
-  color: rgb(87, 87, 87);
+.CtRow{
+    display: flex;
     font-size: 20px;
-    font-style: italic;
+    line-height: 60px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    transition-duration: 0.3s;
     
 }
-            
-        </style>
-<div class="countact-rowbox">
-<div class="countactRow">
-<div class="countImg">
-    <i class="fa fa-map-marker"></i>
+.CtRow:hover{
+    background-color: rgb(255, 239, 233);
+}
+.CtLFET{
+color: orangered;
+}
+.CtLFET i{
+    /* font-size: 40px; */
+
+}
+.CtRIGHT{
+   min-width: 300px;
+   text-align: right;
    
+}
+@media screen and (min-width:320px) and (max-width:359px){
+.CtRIGHT{
+    text-align: left;
+}
+
+}
+@media screen and (min-width:360px) and (max-width:409px){
+    .CtRIGHT{
+    text-align: left;
+}
+}
+@media screen and (min-width:410px) and (max-width:722px){
+    .CtRIGHT{
+    text-align: left;
+}
+}
+        </style>
+   <div class="ctBox">
+<div class="CtRow">
+<div class="CtLFET">
+    <i class="fa fa-map-marker"></i>&nbsp;地址:
 </div>
-<div class="ctit">地址</div>
-<div class="countText">深圳市福田区沙头街道新洲社区新洲中心村3号110</div>
-
+<div class="CtRIGHT">深圳市福田区沙头街道新洲社区新洲中心村3号110</div>
 
 </div>
-
-
-
-</div>
-
-<div class="countact-rowbox">
-    <div class="countactRow">
-    <div class="countImg">
-        <i class="fa fa-phone"></i>
-       
+<div class="CtRow">
+    <div class="CtLFET">
+        <i class="fa fa-envelope" style="font-size:18px;"></i>&nbsp;邮箱:
     </div>
-    <div class="ctit">电话</div>
-    <div class="countText">深圳市福田区沙头街道新洲社区新洲中心村3号110</div>
-    
+    <div class="CtRIGHT">XXXX@xx.<component :is="componentId"></component></div>
     
     </div>
-    
-    
-    
-    </div>
-    
-<div class="countact-rowbox">
-    <div class="countactRow">
-    <div class="countImg">
-        <i class="fa fa-envelope-o "></i>
-       
-    </div>
-    <div class="ctit">邮箱</div>
-    <div class="countText">深圳市福田区沙头街道新洲社区新洲中心村3号110</div>
-    
-    
-    </div>
-    
-    
-    
-    </div>
-    
-<div class="countact-rowbox">
-    <div class="countactRow">
-    <div class="countImg">
-        <i class="fa fa-weixin"></i>
-       
-    </div>
-    <div class="ctit">微信</div>
-    <div class="countText">深圳市福田区沙头街道新洲社区新洲中心村3号110</div>
-    
-    
-    </div>
-    
-    
-    
-    </div>
-    
-<div class="countact-rowbox">
-    <div class="countactRow">
-    <div class="countImg">
-        <i class="fa fa-qq"></i>
-       
-    </div>
-    <div class="ctit">QQ</div>
-    <div class="countText">深圳市福田区沙头街道新洲社区新洲中心村3号110</div>
-    
-    
-    </div>
-    
-    
-    
-    </div>
-
-
-
-        </section>
-
-        <!-- ========================== -->
-        <!-- FOOTER -->
-        <!-- ========================== -->
-        <footer>
-            <!-- ========================== -->
-            <!-- BUY SECTION -->
-            <!-- ========================== -->
-            <!-- <section class="buy-section with-icon">
-                <div class="section-icon"><span class="icon icon-Umbrella"></span></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-1 col-sm-9 wow fadeInLeft">
-                            <div class="section-text">
-                                <div class=" vcenter like">
-                                    <span class="icon icon-Like"></span> 
-                                </div>
-                                <div class="buy-text vcenter">
-                                    <div class="top-text">中辉成达 - 一个业务丰富且专业的企业</div>
-                                    <div class="bottom-text" style="margin-top: 20px;">XXX 以及 XXXL领导的XXX企业</div>
-                                </div>
-                            </div>
-                        </div> 
-                        <div class="col-md-3 col-sm-3  wow fadeInRight">
-                            <a href="#" class="btn btn-info ">联系我们</a>
-                        </div>
-                    </div>
+    <div class="CtRow">
+        <div class="CtLFET">
+            <i class="fa fa-phone"></i>&nbsp;电话:
+        </div>
+        <div class="CtRIGHT">0000-000-0000 <br> 1111-111-1111</div>
+        
+        </div>
+        <div class="CtRow">
+            <div class="CtLFET">
+                <i class="fa fa-qq"></i>&nbsp;QQ:
+            </div>
+            <div class="CtRIGHT">2219221919 <br> 1008610086</div>
+            
+            </div>
+            <div class="CtRow">
+                <div class="CtLFET">
+                    <i class="fa fa-weixin"></i>&nbsp;微信:
                 </div>
-            </section> -->
-            <!-- ========================== -->
-            <!-- FOOTER - SOCIAL -->
-            <!-- ========================== -->
-            <!-- <section class="social-section dark dark-strong">
-                <div class="container dark-content">
-                    <!-- <div class="tt">以下是我们的联系方式</div>
-                    <ul class="list-socials">
-                        <li><a href="#"><i class="fa fa-qq"></i></a></li>
-                        <li><a href="#"><i class="fa fa-weixin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
-                        <li><a href="#"><i class="fa fa-phone"></i></a></li>
-                        <li><a href="#"><i class="fa fa-map-marker"></i></a></li>
-                    
-                    </ul> -->
+                <div class="CtRIGHT" style="display: flex;justify-content: space-between;">
+     <div style="margin-right: 20px;">        
+<img src="img/erweima.png" style="width: 100px;" alt="">
+<br>
+<div style="font-size: 16px;width: 100px;text-align: center; line-height: 20px;margin-top: -20px;">微信1
+    2595999999
+</div>
+</div>    
+<div><img src="img/erweima.png" style="width: 100px;" alt="">
+    <br>
+    <div style="font-size: 16px;width: 100px;text-align: center; line-height: 20px;margin-top: -20px;">微信2
+        2595999999
+    </div></div>
                 </div>
-            </section> -->
+                
+                </div>
 
+
+   </div>
+<script>
+
+
+</script>
             <!-- ========================== -->
             <!-- FOOTER - FOOTER -->
             <!-- ========================== -->
